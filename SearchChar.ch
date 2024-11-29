@@ -10,6 +10,7 @@ namespace LinQ
 
             String[] names = { "hritik","chirag","raj","dinesh","jatin","ramesh"};
                                       //i.Constinse("rit");
+                                    //i.EndsWith("j");
             var a = from i in names where i.StartsWith("d") select i; 
 
             foreach(string ele in a)

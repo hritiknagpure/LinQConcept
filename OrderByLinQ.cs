@@ -9,7 +9,7 @@ namespace LinQ
            //Retrive value in Descending from write
           // i is Alias name
             var a = from i in age where i > 24 orderby i Descending  select i;
-            var a = from i in age where i > 24 orderby i  select i;  
+            var a = from i in age where i > 24 orderby i  select i;
  
             foreach(int ele in a)
             {
